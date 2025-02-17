@@ -8,6 +8,8 @@
     --color-white: white;
     --color-black: black;
     --color-grey: #5E646C;
+    --dark-grey: #808080;
+    --color-blue: #425CD9;
 }
 
 .fs-sm {
@@ -33,4 +35,8 @@
 /* ---------color----------------- */
 .text-grey {
     color: var(--color-grey) !important;
+}
+
+.dark-grey {
+    color: var(--dark-grey);
 }
