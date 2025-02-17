@@ -3,9 +3,11 @@
     --fs-md: 16px;
     --fs-lg: 18px;
     --fs-xl: 20px;
-    --fs-2xl: 88px;
+    --fs-2xl: 48px;
+    --fs-3xl: 88px;
     /* ----colour----- */
     --color-white: white;
+    --light-cream: #EAEAF4;
     --color-black: black;
     --color-grey: #5E646C;
     --dark-grey: #808080;
@@ -32,6 +34,10 @@
     font-size: var(--fs-2xl) !important;
 }
 
+.fs-3xl {
+    font-size: var(--fs-3xl) !important;
+}
+
 /* ---------color----------------- */
 .text-grey {
     color: var(--color-grey) !important;
@@ -39,4 +45,8 @@
 
 .dark-grey {
     color: var(--dark-grey);
+}
+
+.light-cream {
+    background-color: var(--light-cream);
 }

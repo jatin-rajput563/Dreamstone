@@ -25,6 +25,10 @@
     max-width: 1244px;
 }
 
+.mx-w-1240 {
+    max-width: 1240px;
+}
+
 .bg-img-1 {
     background-image: url(/assets/image/png/section-1-bg-img.png);
     background-size: cover;
@@ -86,6 +90,10 @@
 
 .lh-19 {
     line-height: 19px;
+}
+
+.lh-54 {
+    line-height: 54px;
 }
 
 /* ------------line-height------------- */
@@ -154,6 +162,82 @@
 
 .gap-12 {
     gap: 12px;
+}
+
+.easy-step-btn {
+    max-width: 182px;
+    border-radius: 34px;
+    border-width: 1px;
+    padding: 8px 14px 8px 14px;
+    background: #FFFFFF99;
+}
+
+.mx-w-639 {
+    max-width: 639px;
+}
+
+.slider-step {
+    max-width: 81px;
+    border-radius: 34px;
+    border-width: 1px;
+    padding: 8px 14px 8px 14px;
+    background: var(--color-white);
+    border: 1px solid white;
+}
+
+.mx-w-204 {
+    max-width: 204px;
+}
+
+.slider-card {
+    max-width: 236px;
+    border: 1px solid #E9E6F7;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #F2F0FE 0%, #F6F9FF 100%);
+    padding: 24px 16px 24px 16px;
+    border: 1px solid;
+    border-image-source: linear-gradient(0.23deg, rgba(233, 230, 247, 0.5) 0.21%, rgba(129, 106, 235, 0.5) 99.81%);
+}
+
+.slider-card:hover {
+    background: white;
+}
+
+.slider-card:hover .slider-step {
+    background-color: black;
+    color: white;
+}
+
+.ml-12 {
+    margin-left: 12px;
+}
+
+.mx-w-515 {
+    max-width: 515px;
+}
+
+.footer-bg {
+    background-image: url(/assets/image/png/section-2-bg-img.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat
+}
+
+/* ------------------------------------------------ */
+.free-trial-btn {
+    border-radius: 50px;
+    padding: 16px 24px 16px 24px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.free-trial-btn:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+.bottom-475 {
+    bottom: -400px;
 }
 
 @media (max-width:991.98px) {
