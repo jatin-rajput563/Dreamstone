@@ -29,10 +29,23 @@
     max-width: 1240px;
 }
 
-.bg-img-1 {
+.section-1-bg {
     background-image: url(/assets/image/png/section-1-bg-img.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.nav-btn {
+    border-radius: 50px;
+    border-width: 1px;
+    padding: 12px 24px 12px 24px;
+    background: #FFFFFF1A;
+    border: 1px solid #1D252D40;
+    transition: all 200ms linear;
+}
+
+.nav-btn:hover {
+    background-color: white;
 }
 
 .rotate40 {
@@ -49,14 +62,14 @@
 
 .ul-box {
     border-radius: 24px;
-    padding: 12px 12px 12px 12px;
+    padding: 12px 0 12px 0;
     background: #FFFFFF26;
     border: 1px solid #FFFFFF4D;
 }
 
 .nav-tabs-btn {
     border-radius: 24px;
-    padding: 8px;
+    padding: 12px;
     transition: all 200ms linear;
     color: var(--color-black);
     font-weight: 400 !important;
@@ -65,6 +78,51 @@
 .nav-tabs-btn:hover {
     background: #FFFFFFCC;
     font-weight: 500 !important;
+}
+
+.mx-w-238 {
+    max-width: 238px;
+}
+
+.complete-btn {
+    border-radius: 34px;
+    border-width: 1px;
+    padding: 8px 14px 8px 14px;
+    background: #FFFFFF26;
+    border: 1px solid #FFFFFF66;
+    color: var(--color-white);
+}
+
+.complete-btn:hover {
+    background: var(--color-blue);
+    color: var(--color-white);
+}
+
+.mx-w-705 {
+    max-width: 705px;
+}
+
+.heading-box {
+    border-radius: 6px;
+    gap: 10px;
+    border: 1px solid #FFFFFF4D;
+    padding: 8px 16px 8px 16px;
+    background: #FFFFFF1A;
+    max-width: 118px;
+}
+
+.mt-81 {
+    margin-top: 81px;
+}
+
+.ecosystem-main-para {
+    color: transparent;
+    background-image: linear-gradient(03.15deg, #FFFFFF 30.4%, #314FD7 115.77%);
+    -webkit-background-clip: text;
+}
+
+.pt-62 {
+    padding-top: 62px;
 }
 
 /* ------------line-height------------- */
@@ -229,6 +287,7 @@
     padding: 16px 24px 16px 24px;
     background-color: var(--color-black);
     color: var(--color-white);
+    border: none;
 }
 
 .free-trial-btn:hover {
@@ -236,8 +295,17 @@
     color: var(--color-black);
 }
 
-.bottom-475 {
-    bottom: -400px;
+.bottom-399 {
+    bottom: -399px;
+}
+
+.footer-stone-img {
+    bottom: -59%;
+    left: 26%;
+}
+
+.pb-300 {
+    padding-bottom: 300px;
 }
 
 @media (max-width:991.98px) {
