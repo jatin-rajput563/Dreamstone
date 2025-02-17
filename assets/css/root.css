@@ -4,7 +4,8 @@
     --fs-lg: 18px;
     --fs-xl: 20px;
     --fs-2xl: 48px;
-    --fs-3xl: 88px;
+    --fs-3xl: 66px;
+    --fs-4xl: 88px;
     /* ----colour----- */
     --color-white: white;
     --light-cream: #EAEAF4;
@@ -36,6 +37,10 @@
 
 .fs-3xl {
     font-size: var(--fs-3xl) !important;
+}
+
+.fs-4xl {
+    font-size: var(--fs-4xl) !important;
 }
 
 /* ---------color----------------- */

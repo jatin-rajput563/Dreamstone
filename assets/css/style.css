@@ -121,8 +121,34 @@
     -webkit-background-clip: text;
 }
 
+.section-1-stone {
+    left: 38%;
+    top: 11%;
+}
+
 .pt-62 {
     padding-top: 62px;
+}
+
+.mx-w-256 {
+    max-width: 200px;
+}
+
+.percentage-box {
+    border-right: 1px solid #1D252D1A;
+    width: 256px;
+}
+
+.pl-40 {
+    padding-left: 40px;
+}
+
+.mt-250 {
+    margin-top: 250px;
+}
+
+.pb-148 {
+    padding-bottom: 148px;
 }
 
 /* ------------line-height------------- */
@@ -152,6 +178,10 @@
 
 .lh-54 {
     line-height: 54px;
+}
+
+.lh-64 {
+    line-height: 64px;
 }
 
 /* ------------line-height------------- */
