@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
+.golos-family {
+    font-family: "Golos Text", sans-serif;
+}
+
 .menu-lines {
     width: 30px;
     height: 5px;
@@ -15,6 +21,10 @@
 
 }
 
+.mx-w-1244 {
+    max-width: 1244px;
+}
+
 .bg-img-1 {
     background-image: url(/assets/image/png/section-1-bg-img.png);
     background-size: cover;
@@ -29,8 +39,8 @@
     transform: rotate(-44deg);
 }
 
-.gap-24 {
-    gap: 24px;
+.gap-32 {
+    gap: 32px;
 }
 
 .ul-box {
@@ -40,11 +50,41 @@
     border: 1px solid #FFFFFF4D;
 }
 
-.nav-tabs-btn:hover {
+.nav-tabs-btn {
     border-radius: 24px;
     padding: 8px 16px 8px 16px;
-    background: var(--white-80, #FFFFFFCC);
 }
+
+.nav-tabs-btn:hover {
+    background: #FFFFFFCC;
+}
+
+/* ------------line-height------------- */
+.lh-24 {
+    line-height: 24px;
+}
+
+.lh-23 {
+    line-height: 23px;
+}
+
+.lh-22 {
+    line-height: 22.72px;
+}
+
+.lh-88 {
+    line-height: 88px;
+}
+
+.lh-30 {
+    line-height: 30px;
+}
+
+.lh-19 {
+    line-height: 19px;
+}
+
+/* ------------line-height------------- */
 
 @media (max-width:991.98px) {
 

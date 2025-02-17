@@ -1,0 +1,36 @@
+:root {
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 20px;
+    --fs-2xl: 88px;
+    /* ----colour----- */
+    --color-white: white;
+    --color-black: black;
+    --color-grey: #5E646C;
+}
+
+.fs-sm {
+    font-size: var(--fs-sm) !important;
+}
+
+.fs-md {
+    font-size: var(--fs-md) !important;
+}
+
+.fs-lg {
+    font-size: var(--fs-lg) !important;
+}
+
+.fs-xl {
+    font-size: var(--fs-xl) !important;
+}
+
+.fs-2xl {
+    font-size: var(--fs-2xl) !important;
+}
+
+/* ---------color----------------- */
+.text-grey {
+    color: var(--color-grey) !important;
+}
