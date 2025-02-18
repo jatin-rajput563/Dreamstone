@@ -27,8 +27,8 @@
 
 }
 
-.mx-w-1224 {
-    max-width: 1224px !important;
+.mx-w-1440 {
+    max-width: 1440px !important;
 }
 
 .px-32-15 {
@@ -42,12 +42,6 @@
 
 .section-1-stone {
     animation: shake 3s ease-in-out infinite;
-}
-
-@keyframes shake {
-    50% {
-        transform: translateY(-50px);
-    }
 }
 
 .bg-img {
@@ -160,9 +154,24 @@
     max-width: 200px;
 }
 
-.percentage-box {
-    border-right: 1px solid #1D252D1A;
+.border-right-2 {
+    border-right: 1px solid #1d252d1a;
+}
+
+.line {
+    border: 1px solid #1d252d1a;
+}
+
+.w-256 {
     width: 256px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.mt-198 {
+    margin-top: 198px;
 }
 
 .pl-40 {
@@ -194,6 +203,12 @@
 .mx-w-326 {
     max-width: 326px;
 }
+
+.bottom-line {
+    border: 1px solid #1d252d1a;
+    margin-top: 148px;
+}
+
 
 /* ------------line-height------------- */
 .lh-24 {
@@ -331,6 +346,7 @@
 
 .slider-card {
     max-width: 236px;
+    max-height: 265px;
     border: 1px solid #E9E6F7;
     border-radius: 8px;
     background: linear-gradient(180deg, #F2F0FE 0%, #F6F9FF 100%);
@@ -346,6 +362,10 @@
 .slider-card:hover .slider-step {
     background-color: black;
     color: white;
+}
+
+.slick-slide {
+    height: 265px !important;
 }
 
 .ml-12 {
@@ -390,6 +410,12 @@
     padding-bottom: 300px;
 }
 
+@keyframes shake {
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
 @media (max-width:991.98px) {
 
     .nav-link {
@@ -430,6 +456,11 @@
         background: none;
         border: none;
     }
+
+    .bottom-line {
+        margin-top: 40px;
+    }
+
 }
 
 @media (max-width:767.98px) {
