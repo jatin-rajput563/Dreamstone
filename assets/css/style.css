@@ -41,8 +41,6 @@
 }
 
 .section-1-stone {
-    top: 10%;
-    left: 35%;
     animation: shake 3s ease-in-out infinite;
 }
 
@@ -50,6 +48,13 @@
     50% {
         transform: translateY(-50px);
     }
+}
+
+.bg-img {
+    background-image: url(../image/png/section-1-bg-img.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 .curser-pointer {
@@ -84,7 +89,7 @@
 .ul-box {
     border-radius: 24px;
     padding: 12px 0 12px 0;
-    background: #FFFFFF26;
+    background: var(--light-grey);
     border: 1px solid #FFFFFF4D;
 }
 
@@ -109,9 +114,10 @@
     border-radius: 34px;
     border-width: 1px;
     padding: 8px 14px 8px 14px;
-    background: #FFFFFF26;
-    border: 1px solid #FFFFFF66;
+    background: var(--light-grey);
+    border: 1px solid var(--light-grey);
     color: var(--color-white);
+    transition: all 200ms linear;
 }
 
 .complete-btn:hover {
@@ -140,11 +146,6 @@
     background: linear-gradient(203.15deg, #FFFFFF 30.4%, #314FD7 115.77%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.section-1-stone {
-    left: 41%;
-    top: 10%;
 }
 
 .pt-62 {
@@ -188,6 +189,10 @@
 .get-btn:hover {
     background: var(--color-white);
     color: var(--color-blue);
+}
+
+.mx-w-326 {
+    max-width: 326px;
 }
 
 /* ------------line-height------------- */
@@ -280,6 +285,10 @@
 
 .gap-32 {
     gap: 32px;
+}
+
+.pr-50 {
+    padding-right: 50px;
 }
 
 .footer-line {
@@ -386,7 +395,7 @@
     .nav-link {
         display: flex !important;
         flex-direction: column;
-        background: var(--color-blue) !important;
+        background: var(--light-cream) !important;
         width: 100%;
         min-height: 100vh;
         position: fixed;
@@ -397,6 +406,7 @@
         transition: all 300ms linear !important;
         z-index: 5 !important;
         background-color: blue;
+        color: white !important;
         align-items: center;
     }
 
@@ -409,7 +419,29 @@
     }
 
     .pt-44 {
-        padding-top: 6px;
+        padding-top: 0;
+    }
+
+    .pr-50 {
+        padding-right: 0;
+    }
+
+    .ul-box {
+        background: none;
+        border: none;
+    }
+}
+
+@media (max-width:767.98px) {
+    .lh-88 {
+        line-height: 65px;
+    }
+
+}
+
+@media (max-width:400.98px) {
+    .lh-88 {
+        line-height: 40px;
     }
 
 }

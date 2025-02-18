@@ -12,6 +12,7 @@
     --color-black: black;
     --color-grey: #5E646C;
     --dark-grey: #808080;
+    --light-grey: #FFFFFF26;
     --color-blue: #425CD9;
 }
 
@@ -54,4 +55,28 @@
 
 .light-cream {
     background-color: var(--light-cream);
+}
+
+@media (max-width:767.98px) {
+    :root {
+        --fs-2xl: 48px;
+        --fs-3xl: 66px;
+        --fs-4xl: 70px;
+    }
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-2xl: 48px;
+        --fs-3xl: 66px;
+        --fs-4xl: 50px;
+    }
+}
+
+@media (max-width:400.98px) {
+    :root {
+        --fs-2xl: 48px;
+        --fs-3xl: 66px;
+        --fs-4xl: 30px;
+    }
 }
