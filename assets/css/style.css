@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 
 .golos-family {
     font-family: "Golos Text", sans-serif;
+}
+
+.sf-family {
+    font-family: "SF Pro Text", sans-serif;
+
 }
 
 .menu-lines {
@@ -21,18 +27,33 @@
 
 }
 
-.mx-w-1244 {
-    max-width: 1244px;
+.mx-w-1224 {
+    max-width: 1224px !important;
+}
+
+.px-32-15 {
+    padding-left: 32px;
+    padding-right: 15px;
 }
 
 .mx-w-1240 {
-    max-width: 1240px;
+    max-width: 1240px !important;
 }
 
-.section-1-bg {
-    background-image: url(/assets/image/png/section-1-bg-img.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+.section-1-stone {
+    top: 10%;
+    left: 35%;
+    animation: shake 3s ease-in-out infinite;
+}
+
+@keyframes shake {
+    50% {
+        transform: translateY(-50px);
+    }
+}
+
+.curser-pointer {
+    cursor: pointer;
 }
 
 .nav-btn {
@@ -116,18 +137,22 @@
 }
 
 .ecosystem-main-para {
-    color: transparent;
-    background-image: linear-gradient(03.15deg, #FFFFFF 30.4%, #314FD7 115.77%);
+    background: linear-gradient(203.15deg, #FFFFFF 30.4%, #314FD7 115.77%);
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .section-1-stone {
-    left: 38%;
-    top: 11%;
+    left: 41%;
+    top: 10%;
 }
 
 .pt-62 {
     padding-top: 62px;
+}
+
+.pt-44 {
+    padding-top: 44px;
 }
 
 .mx-w-256 {
@@ -149,6 +174,20 @@
 
 .pb-148 {
     padding-bottom: 148px;
+}
+
+.get-btn {
+    border-radius: 50px;
+    padding: 16px 24px 16px 24px;
+    background: #1D252D;
+    border: none;
+    color: var(--color-white);
+    transition: all 200ms linear;
+}
+
+.get-btn:hover {
+    background: var(--color-white);
+    color: var(--color-blue);
 }
 
 /* ------------line-height------------- */
@@ -182,6 +221,10 @@
 
 .lh-64 {
     line-height: 64px;
+}
+
+.lh-21 {
+    line-height: 21px;
 }
 
 /* ------------line-height------------- */
@@ -352,7 +395,8 @@
         right: -100% !important;
         top: 0%;
         transition: all 300ms linear !important;
-        z-index: 3;
+        z-index: 5 !important;
+        background-color: blue;
         align-items: center;
     }
 
@@ -363,4 +407,9 @@
     .section-1-main-box {
         flex-direction: column;
     }
+
+    .pt-44 {
+        padding-top: 6px;
+    }
+
 }
