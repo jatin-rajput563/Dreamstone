@@ -273,12 +273,16 @@
     padding-left: 50px;
 }
 
-.ml-219 {
-    margin-left: 219px;
+.ml-206 {
+    margin-left: 180px;
 }
 
 .mr-146 {
     margin-right: 146px;
+}
+
+.mr-27 {
+    margin-right: 27px;
 }
 
 .email-box {
@@ -311,12 +315,17 @@
     border: 1px solid #FFFFFF1A;
 }
 
-.mt-164 {
-    margin-top: 164px;
+.pt-164 {
+    padding-top: 164px;
 }
 
 .gap-12 {
     gap: 12px;
+}
+
+.slick-track {
+    display: flex !important;
+    gap: 16px;
 }
 
 .easy-step-btn {
@@ -325,6 +334,12 @@
     border-width: 1px;
     padding: 8px 14px 8px 14px;
     background: #FFFFFF99;
+}
+
+.slider-arrow {
+    top: 9px;
+    right: -26px;
+    z-index: 1;
 }
 
 .mx-w-639 {
@@ -376,13 +391,6 @@
     max-width: 515px;
 }
 
-.footer-bg {
-    background-image: url(/assets/image/png/section-2-bg-img.png);
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat
-}
-
 /* ------------------------------------------------ */
 .free-trial-btn {
     border-radius: 50px;
@@ -402,12 +410,17 @@
 }
 
 .footer-stone-img {
-    bottom: -59%;
-    left: 26%;
+    bottom: -43%;
+    left: 32%;
+    max-width: 432px;
 }
 
 .pb-300 {
     padding-bottom: 300px;
+}
+
+.ml-200 {
+    margin-left: 200px;
 }
 
 @keyframes shake {
